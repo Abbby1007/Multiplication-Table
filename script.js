@@ -93,3 +93,68 @@ function oneq7(){
     display.textContent = `Try Again`
   }
 }
+
+function oneq8(){
+  let input = document.getElementById("input").value;
+
+  let correctAnswer = 8;
+
+  if(correctAnswer == input){
+    document.getElementById('appear').innerHTML = `<a href = "oneq9.html"> <button> Next Question </button> </a>`
+  }
+  else {
+    display.textContent = `Try Again`
+  }
+}
+
+function oneq9(){
+  let input = document.getElementById("input").value;
+
+  let correctAnswer = 9;
+
+  if(correctAnswer == input){
+    document.getElementById('appear').innerHTML = `<a href = "oneq10.html"> <button> Next Question </button> </a>`
+  }
+  else {
+    display.textContent = `Try Again`
+  }
+}
+
+function oneq10(){
+  let input = document.getElementById("input").value;
+
+  let correctAnswer = 10;
+
+  if(correctAnswer == input){
+    document.getElementById('appear').innerHTML = `<a href = "oneq11.html"> <button> Next Question </button> </a>`
+  }
+  else {
+    display.textContent = `Try Again`
+  }
+}
+
+function oneq11(){
+  let input = document.getElementById("input").value;
+
+  let correctAnswer = 11;
+
+  if(correctAnswer == input){
+    document.getElementById('appear').innerHTML = `<a href = "oneq12.html"> <button> Next Question </button> </a>`
+  }
+  else {
+    display.textContent = `Try Again`
+  }
+}
+
+function oneq12(){
+  let input = document.getElementById("input").value;
+
+  let correctAnswer = 12;
+
+  if(correctAnswer == input){
+    document.getElementById('appear').innerHTML = `<a href = "oneq13.html"> <button> Next Question </button> </a>`
+  }
+  else {
+    display.textContent = `Try Again`
+  }
+}
