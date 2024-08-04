@@ -158,3 +158,107 @@ function oneq12(){
     display.textContent = `Try Again`
   }
 }
+
+function oneq13(){
+  let input = document.getElementById("input").value;
+
+  let correctAnswer = 13;
+
+  if(correctAnswer == input){
+    document.getElementById('appear').innerHTML = `<a href = "oneq14.html"> <button> Next Question </button> </a>`
+  }
+  else {
+    display.textContent = `Try Again`
+  }
+}
+
+function oneq14(){
+  let input = document.getElementById("input").value;
+
+  let correctAnswer = 14;
+
+  if(correctAnswer == input){
+    document.getElementById('appear').innerHTML = `<a href = "oneq15.html"> <button> Next Question </button> </a>`
+  }
+  else {
+    display.textContent = `Try Again`
+  }
+}
+
+function oneq15(){
+  let input = document.getElementById("input").value;
+
+  let correctAnswer = 15;
+
+  if(correctAnswer == input){
+    document.getElementById('appear').innerHTML = `<a href = "oneq16.html"> <button> Next Question </button> </a>`
+  }
+  else {
+    display.textContent = `Try Again`
+  }
+}
+
+function oneq16(){
+  let input = document.getElementById("input").value;
+
+  let correctAnswer = 16;
+
+  if(correctAnswer == input){
+    document.getElementById('appear').innerHTML = `<a href = "oneq17.html"> <button> Next Question </button> </a>`
+  }
+  else {
+    display.textContent = `Try Again`
+  }
+}
+
+function oneq17(){
+  let input = document.getElementById("input").value;
+
+  let correctAnswer = 17;
+
+  if(correctAnswer == input){
+    document.getElementById('appear').innerHTML = `<a href = "oneq18.html"> <button> Next Question </button> </a>`
+  }
+  else {
+    display.textContent = `Try Again`
+  }
+}
+
+function oneq18(){
+  let input = document.getElementById("input").value;
+
+  let correctAnswer = 18;
+
+  if(correctAnswer == input){
+    document.getElementById('appear').innerHTML = `<a href = "oneq19.html"> <button> Next Question </button> </a>`
+  }
+  else {
+    display.textContent = `Try Again`
+  }
+}
+
+function oneq19(){
+  let input = document.getElementById("input").value;
+
+  let correctAnswer = 19;
+
+  if(correctAnswer == input){
+    document.getElementById('appear').innerHTML = `<a href = "oneq20.html"> <button> Next Question </button> </a>`
+  }
+  else {
+    display.textContent = `Try Again`
+  }
+}
+
+function oneq20(){
+  let input = document.getElementById("input").value;
+
+  let correctAnswer = 20;
+
+  if(correctAnswer == input){
+    document.getElementById('appear').innerHTML = `<a href = "oneCongratulations.html"> <button> Next Question </button> </a>`
+  }
+  else {
+    display.textContent = `Try Again`
+  }
+}
