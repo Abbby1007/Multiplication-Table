@@ -236,3 +236,42 @@ function twoq17()
     display.textContent = `Try Again`;
   }
 }
+
+function twoq18()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 36;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="twoq19.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+function twoq19()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 38;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="twoq20.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+function twoq20()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 40;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="twoCongratulations.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
