@@ -12,8 +12,6 @@ function oneq1()
   else {
     display.textContent = `Try Again`;
   }
-
-
 }
 
 function oneq2 (){
@@ -256,7 +254,7 @@ function oneq20(){
   let correctAnswer = 20;
 
   if(correctAnswer == input){
-    document.getElementById('appear').innerHTML = `<a href = "oneCongratulations.html"> <button> Next Question </button> </a>`
+    document.getElementById('appear').innerHTML = `<a href = "oneCongratulations.html"> <button> Congratulations </button> </a>`
   }
   else {
     display.textContent = `Try Again`
