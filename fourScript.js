@@ -89,3 +89,123 @@ function fourq6()
     display.textContent = `Try Again`;
   }
 }
+
+// Question 7
+function fourq7()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 28;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fourq8.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 8
+function fourq8()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 32;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fourq9.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 9
+function fourq9()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 36;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fourq10.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 10
+function fourq10()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 40;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fourq11.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 11
+function fourq11()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 44;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fourq12.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 12
+function fourq12()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 48;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fourq13.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 13
+function fourq13()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 52;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fourq14.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 14
+function fourq14()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 56;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fourq15.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
