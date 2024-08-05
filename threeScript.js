@@ -179,3 +179,123 @@ function threeq12()
     display.textContent = `Try Again`;
   }
 }
+
+// Question 13
+function threeq13()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 39;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="threeq14.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 14
+function threeq14()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 42;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="threeq15.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 15
+function threeq15()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 45;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="threeq16.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 16
+function threeq16()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 48;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="threeq17.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 17
+function threeq17()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 51;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="threeq18.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 18
+function threeq18()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 54;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="threeq19.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 19
+function threeq19()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 57;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="threeq20.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 20
+function threeq20()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 60;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="threeCongratulations.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
