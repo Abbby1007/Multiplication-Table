@@ -112,3 +112,115 @@ function fiveq8()
     display.textContent = `Try Again`;
   }
 }
+
+// Question 9
+function fiveq9()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 45;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq10.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 10
+function fiveq10()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 50;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq11.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 11
+function fiveq11()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 55;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq12.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 12
+function fiveq12()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 60;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq13.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 13
+function fiveq13()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 65;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq14.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 14
+function fiveq14()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 70;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq15.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 15
+function fiveq15()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 75;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq16.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 16
+function fiveq16()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 80;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq17.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
