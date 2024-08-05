@@ -209,3 +209,93 @@ function fourq14()
     display.textContent = `Try Again`;
   }
 }
+
+// Question 15
+function fourq15()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 60;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fourq16.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 16
+function fourq16()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 64;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fourq17.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 17
+function fourq17()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 68;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fourq18.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 18
+function fourq18()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 72;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fourq19.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 19
+function fourq19()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 76;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fourq20.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 20
+function fourq20()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 80;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fourCongratulations.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
