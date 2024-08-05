@@ -322,3 +322,32 @@ function fiveq23()
     display.textContent = `Try Again`;
   }
 }
+
+
+// Question 24
+function fiveq24()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 120;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq25.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 25
+function fiveq25()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 125;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveCongratulations.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
