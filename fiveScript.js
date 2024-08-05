@@ -224,3 +224,101 @@ function fiveq16()
     display.textContent = `Try Again`;
   }
 }
+
+// Question 17
+function fiveq17()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 85;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq18.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 18
+function fiveq18()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 90;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq19.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 19
+function fiveq19()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 95;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq20.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 20
+function fiveq20()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 100;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq21.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 21
+function fiveq21()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 105;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq22.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 22
+function fiveq22()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 110;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq23.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+// Question 23
+function fiveq23()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 115;
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="fiveq24.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
