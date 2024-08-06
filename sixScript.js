@@ -155,3 +155,101 @@ function sixq11()
     display.textContent = `Try Again`;
   }
 }
+
+function sixq12()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 72;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="sixq13.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+function sixq13()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 78;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="sixq14.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+function sixq14()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 84;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="sixq15.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+function sixq15()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 90;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="sixq16.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+function sixq16()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 96;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="sixq17.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+function sixq17()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 102;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="sixq18.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
+
+function sixq18()
+{
+  let input = document.getElementById('input').value;
+
+  let correctAnswer = 108;
+
+  if (correctAnswer == input) {
+    document.getElementById('appear').innerHTML = '<a href="sixq19.html"> <button> Next Question</button> </a>'
+  }
+  else {
+    display.textContent = `Try Again`;
+  }
+}
